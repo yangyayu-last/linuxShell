@@ -20,6 +20,8 @@ public class FtpTest {
 				"123456", "utf-8");
 		
 		//String result = tool.exec("echo 'HelloWorld'");
+		//可以给文件赋权限
+		//tool.exec("chmod 777 "+linuxFile+"1.sh");
 		
 		String result = tool.exec("sh /var/www/888888.sh jjflkjdf");
 		System.out.print(result);
