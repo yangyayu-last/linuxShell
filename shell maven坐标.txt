@@ -1,0 +1,14 @@
+//Java通过SSH2协议执行远程Shell脚本
+<dependency>
+    <groupId>ch.ethz.ganymed</groupId>
+    <artifactId>ganymed-ssh2</artifactId>
+    <version>build210</version>
+</dependency>
+
+//Java远程连接Linux服务器并执行命令及上传文件
+<!-- https://mvnrepository.com/artifact/com.jcraft/jsch -->
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch</artifactId>
+    <version>0.1.53</version>
+</dependency>
